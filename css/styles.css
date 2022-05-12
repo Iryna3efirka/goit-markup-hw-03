@@ -27,9 +27,14 @@ body {
 
 .header-container {
     display: flex;
+    align-items: center;
 }
-
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
 .logo {
+    margin-right: 93px;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -40,6 +45,7 @@ body {
 .logo-studio-1 {
     color: #000000;
 }
+
 .menu {
     display: flex;
 }
@@ -69,6 +75,7 @@ body {
 }
 .contact {
     display: flex;
+    margin-left: auto;
 }
 .contact-menu + .contact-menu{
     margin-left: 50px;
@@ -90,7 +97,7 @@ body {
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
-    text-align: center;
+    width: 696px;
     text-transform: uppercase;
 
     color: #FFFFFF;
@@ -127,6 +134,7 @@ body {
 .modal-btn:focus {
     background-color: #188CE8;
 }
+
 /* SERVICES*/
 
 .services {
@@ -134,6 +142,9 @@ body {
     margin-bottom: 94px;
 }
 
+.services-list {
+    display: flex;
+}
 .service-title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -159,7 +170,9 @@ body {
     margin-top: 0;
     margin-bottom: 94px;
 }
-
+.about-gallery-list {
+    display: flex;
+}
 .section-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -177,6 +190,9 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;
+}
+.employees-list-menu {
+    display: flex;
 }
 .employees-list-name {
     margin-top: 0;
@@ -239,7 +255,15 @@ body {
 
 .portfolio-list {
     padding-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 34px;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-list-btn {
+    margin-right: 8px;
+}
+.portfolio-list-btn:last-child {
+    margin-right: 0;
 }
 
 .portfolio-btn {
@@ -263,6 +287,11 @@ body {
 .portfolio-btn:focus {
     color: #FFFFFF;
     background-color: #2196F3;
+}
+
+.portfolio-services-list {
+    display: flex;
+    flex-wrap: wrap;
 }
 .portfolio-service-name {
     margin-top: 0;
