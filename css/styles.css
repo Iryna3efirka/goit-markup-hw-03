@@ -30,6 +30,10 @@ img {
 
 /* HEADER */
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header-container {
     display: flex;
     align-items: center;
@@ -325,6 +329,7 @@ img {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;
 }
 .portfolio-services:nth-child(3n) {
     margin-right: 0;
