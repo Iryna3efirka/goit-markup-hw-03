@@ -55,10 +55,10 @@ img {
 }
 .header .logo {
     margin-right: 93px;
-}
-.logo {
     padding-top: 24px;
     padding-bottom: 25px;
+}
+.logo {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -104,6 +104,7 @@ img {
     margin-left: 50px;
 }
 .header-contact {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
